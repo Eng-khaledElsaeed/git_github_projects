@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+/* ------------------------- start header style ---------------------------- */
+.header{
+    text-align: center;
+    padding: 10px 5px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .h-left a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header .h-left a img,
+.header .h-right img{
+    width: 40px;
+    height: 40px;
+}
+.header .h-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* ------------------------- end header style ---------------------------- */
+/* ------------------------- start main content style ---------------------------- */
+.main_content{
+    text-align: center;
+    margin: 35px 0;
+}
+table{
+border-collapse: collapse;
+width: 100%;
+}
+td, th {
+border: 1px solid #dddddd;
+text-align: center;
+padding: 8px;
+color: black;
+}
+tr th:nth-child(1),
+tr td:nth-child(1){
+    background-color: aqua;
+}
+tr{
+    cursor: pointer;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+tr:hover {background-color: #D6EEEE;}
+/* ------------------------- end main content style ---------------------------- */
+/* ------------------------- start footer style ---------------------------- */
+.footer{
+bottom: 0;
+width: 100%;
+padding: 10px;
+text-align: center;
+background-color: beige;
+margin-top:20px ;
+}
+/* ------------------------- end footer style ---------------------------- */
